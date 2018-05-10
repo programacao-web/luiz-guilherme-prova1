@@ -1,0 +1,16 @@
+Questão 3
+
+(a) Discuta o que significa a filosofia de desenvolvimento "Mobile First". 
+Discuta os aspectos técnicos com relação às implicações no HTML, CSS e 
+Javascript. 
+
+Mobile First é um tipo de design thinking onde você, como desenvolvedor, deve direcionar seu desenvolvimento para celulares e outros dispositivos móveis, antes de pensar o design para desktop ou outras telas maiores.
+
+Ao desenvolver, a implementação do HTML, se bem desenvolvido e semântico, não deve ter nenhuma diferença de um pensamento desktop-first. Já o CSS possui uma nova forma de pensamento, onde as classes seriam feitas para telas menores e depois portadas para telas maiores.
+
+Ao implementar o JavaScript temos que desenhar ao redor de elementos de clique e a falta de um mouse. Portanto evitam-se elementos de clique com o botão direito e preferência por drag-and-drop.
+
+(b) Nosso site possui um footer responsivo. Ele é mobile first? Justifique.
+Caso não seja, explique como consertaríamos o problema.
+
+O Footer encontrado no site não é mobile first, pois sua regra de implementação é feita para telas grandes e ocultada para dispositivos de telas menores. A implementação mobile-first, seria criar primeiro a regra para telas menores e por fim criar uma regra de exceção para telas maiores.

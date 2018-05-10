@@ -15,5 +15,13 @@
       <li>70% - mostra como código formatado</li>
       <li>100% - syntax highlight. (Dicas: pygments, prims.js)</li>
     </ul>
+
+    <p>Título: {{ paste.title }}<p>
+    <p>Linguagem: {{ paste.language }}</p>
+    <p>
+      Código: <br>
+      <code>{{ paste.content }}</code>
+    </p>
+    
   </main>
 {% endblock %}
